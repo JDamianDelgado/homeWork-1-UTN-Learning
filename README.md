@@ -22,7 +22,7 @@ Curso: Diplomatura Full Stack
 
 Unidad: Módulo 1 – Unidad 1
 
-Fecha: Agosto 2025
+Fecha: Septiembre 2025
 
 ---
 
