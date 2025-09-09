@@ -35,4 +35,5 @@ Fecha: Agosto 2025
 ## Bibliografia
 
 -Campus UTN-Learning – Unidad 1 “Antes de React”
+
 -Imagen utilizada en la sección “Motivación”: image.png → extraída de internet
