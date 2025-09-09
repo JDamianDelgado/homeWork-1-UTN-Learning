@@ -28,7 +28,7 @@ Fecha: Agosto 2025
 
 ## Captura
 
-![alt text](image.png)
+![screenShots pagina](./public/screenshots.png)
 
 ---
 
