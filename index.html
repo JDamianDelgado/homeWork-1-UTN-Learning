@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breve Biografia</title>
+  </head>
+  <body>
+    <header>
+      <h1>Breve Biografia</h1>
+      <ul class="nav">
+        <li><a href="#Past">Quien soy?</a></li>
+        <li><a href="#Present">Actualmente</a></li>
+        <li><a href="#myMotivation">Que me motiva</a></li>
+      </ul>
+    </header>
+    <main>
+      <article>
+        <h2>Hola, soy Joaquin</h2>
+        <section id="Past">
+          <h3>De donde vengo</h3>
+          <p>
+            Nací en el norte argentino en la década de los 90, un lugar
+            tranquilo, pero mi curiosidad y deseo de crecer me llevaron a Buenos
+            Aires. Allí me recibí como
+            <strong>Licenciado en Enfermería</strong>, lo que me permitió hace
+            algunos años comenzar a trabajar en una clínica de rehabilitación
+            muy reconocida.
+          </p>
+        </section>
+
+        <section id="Present">
+          <h3>Actualmente</h3>
+          <p>
+            Ejerzo mi profesión con dedicación, pero mi pasión por la
+            informática me está llamando.
+            <br />
+            Como dijo
+            <cite>Benjamin Franklin</cite>,
+            <cite
+              >“La inversión en conocimiento siempre paga los mejores
+              intereses.”</cite
+            >
+            <br />
+            Por eso, estoy comprometido en seguir aprendiendo y creciendo en el
+            mundo IT. Para ello, hace unos años comencé a formarme a través de
+            diferentes bootcamps y plataformas como:
+          </p>
+          <ol id="list">
+            <li>freeCodeCamp</li>
+            <li>Codecademy</li>
+            <li>Coursera</li>
+            <li>Udemy</li>
+            <li>SoyHenry</li>
+            <li>etc.</li>
+          </ol>
+        </section>
+
+        <section id="myMotivation">
+          <h3>Mi motivacion</h3>
+
+          <p>
+            Hoy tengo la suerte de contar con
+            <em> dos personas que me inspiran y me motivan </em> día a día a
+            seguir creciendo y nunca rendirme. El mundo IT es desafiante y
+            competitivo, pero cada esfuerzo que pongo me acerca un paso más a
+            cumplir un sueño.
+          </p>
+          <img src="./public/image.png" alt="familia" />
+        </section>
+
+        <form class="formulario" action="">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Juan Perez"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="juanPerez@mail.com"
+            required
+          />
+
+          <label for="opinion">Que te pareció la breve descripción?</label>
+          <select name="opinion" id="opinion" required>
+            <option value="me_encanto">Me encantó</option>
+            <option value="puede_mejorar">Puede mejorar</option>
+            <option value="aun_te_falta">Aún falta</option>
+          </select>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </article>
+    </main>
+    <footer>
+      <small>Joaquin Damian Delgado - Agosto 2025</small>
+    </footer>
+  </body>
+</html>
